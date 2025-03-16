@@ -2,4 +2,23 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    width: 800px;
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixel{
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: pink;
 }
