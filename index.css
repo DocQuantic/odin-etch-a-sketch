@@ -18,7 +18,9 @@ body{
 }
 
 .pixel{
-    width: 50px;
-    aspect-ratio: 1;
     background-color: pink;
+}
+
+.hovered{
+    background-color: chocolate;
 }
