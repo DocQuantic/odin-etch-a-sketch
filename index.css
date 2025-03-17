@@ -1,11 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 #grid{
@@ -15,10 +22,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.pixel{
-    background-color: pink;
 }
 
 .hovered{
